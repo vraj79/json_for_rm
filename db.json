@@ -1,3 +1,37 @@
 {
-    "books":[]
+  "books": [
+    {
+      "image_url": "https://m.media-amazon.com/images/I/5165He67NEL.jpg",
+      "book_name": "Harry Potter and the Philosopher's Stone",
+      "author": "J. K. Rowling",
+      "genre": "fiction",
+      "edition": "2021",
+      "publisher": "Bloomsbury",
+      "cost": 100,
+      "borrowed": false,
+      "id": 1
+    },
+    {
+      "image_url": "https://m.media-amazon.com/images/I/5165He67NEL.jpg",
+      "book_name": "Harry Potter and the Philosopher's Stone",
+      "author": "J. K. Rowling",
+      "genre": "tech",
+      "edition": "2021",
+      "publisher": "Bloomsbury",
+      "cost": 85,
+      "borrowed": false,
+      "id": 2
+    },
+    {
+      "image_url": "https://m.media-amazon.com/images/I/5165He67NEL.jpg",
+      "book_name": "Harry Potter and the Philosopher's Stone",
+      "author": "J. K. Rowling",
+      "genre": "science",
+      "edition": "2021",
+      "publisher": "Bloomsbury",
+      "cost": 200,
+      "borrowed": false,
+      "id": 3
+    }
+  ]
 }
