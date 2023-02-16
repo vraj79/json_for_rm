@@ -1,37 +1,67 @@
 {
-  "books": [
+  "users": [
     {
-      "image_url": "https://m.media-amazon.com/images/I/5165He67NEL.jpg",
-      "book_name": "Harry Potter and the Philosopher's Stone",
-      "author": "J. K. Rowling",
-      "genre": "fiction",
-      "edition": "2021",
-      "publisher": "Bloomsbury",
-      "cost": 100,
-      "borrowed": false,
+      "id": 1,
+      "email": "admin@stockbroker.com",
+      "password": "admin123"
+    },
+    {
+      "username": "vraj",
+      "email": "vraj@vraj.com",
+      "password": "vraj",
+      "id": 2
+    }
+  ],
+  "companies": [
+    {
+      "CompanyLogo": "https://logolook.net/wp-content/uploads/2021/11/HDFC-Bank-Logo.png",
+      "CompanyName": "HDFC Bank",
+      "CompanyType": "Bank",
+      "StockExchange": "NSE",
+      "TotalShares": "50000",
+      "CostPerShare": "4210",
+      "PriceAction": "12",
       "id": 1
     },
     {
-      "image_url": "https://m.media-amazon.com/images/I/5165He67NEL.jpg",
-      "book_name": "Harry Potter and the Philosopher's Stone",
-      "author": "J. K. Rowling",
-      "genre": "tech",
-      "edition": "2021",
-      "publisher": "Bloomsbury",
-      "cost": 85,
-      "borrowed": false,
-      "id": 2
+      "id": 2,
+      "CompanyLogo": "https://www.jetspot.in/wp-content/uploads/2018/03/reliance-logo.jpg",
+      "CompanyName": "Reliance Industries",
+      "CompanyType": "Oil",
+      "StockExchange": "NSE",
+      "TotalShares": "20000",
+      "CostPerShare": "2132",
+      "PriceAction": "4"
     },
     {
-      "image_url": "https://m.media-amazon.com/images/I/5165He67NEL.jpg",
-      "book_name": "Harry Potter and the Philosopher's Stone",
-      "author": "J. K. Rowling",
-      "genre": "science",
-      "edition": "2021",
-      "publisher": "Bloomsbury",
-      "cost": 200,
-      "borrowed": false,
+      "CompanyLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe7u6HvHALex-t-oJ1g4u3fJZ3UpGpwlqpww&usqp=CAU",
+      "CompanyName": "ICICI ",
+      "CompanyType": "Automobile",
+      "StockExchange": "BSE",
+      "TotalShares": "50000",
+      "CostPerShare": "300",
+      "PriceAction": "8",
       "id": 3
+    },
+    {
+      "CompanyLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe7u6HvHALex-t-oJ1g4u3fJZ3UpGpwlqpww&usqp=CAU",
+      "CompanyName": "ICICI ",
+      "CompanyType": "Pharma",
+      "StockExchange": "NSE",
+      "TotalShares": "50000",
+      "CostPerShare": "300",
+      "PriceAction": "8",
+      "id": 4
+    },
+    {
+      "CompanyLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe7u6HvHALex-t-oJ1g4u3fJZ3UpGpwlqpww&usqp=CAU",
+      "CompanyName": "ICICI ",
+      "CompanyType": "IT",
+      "StockExchange": "NSE",
+      "TotalShares": "50000",
+      "CostPerShare": "300",
+      "PriceAction": "8",
+      "id": 5
     }
   ]
 }
